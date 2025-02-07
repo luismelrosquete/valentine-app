@@ -1,0 +1,73 @@
+.container {
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background: linear-gradient(to right, #ff758c, #ff7eb3);
+  color: white;
+}
+
+.floating-heart {
+  position: absolute;
+  left: 0;
+  animation-timing-function: ease-in-out;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.yes-button,
+.no-button {
+  font-size: 1.2rem;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.yes-button {
+  background: #ff4d6d;
+  color: white;
+  position: relative;
+  z-index: 2;
+}
+.yes-button:hover {
+  background: #ff1e4d;
+}
+
+.no-button {
+  background: #bbbbbb;
+  color: white;
+  position: relative;
+  left: 0;
+}
+.no-button:hover {
+  background: #999999;
+}
+
+.response {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.romantic-touch {
+  margin-top: 30px;
+  font-size: 1rem;
+  font-style: italic;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
