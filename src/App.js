@@ -13,7 +13,7 @@ function App() {
       "💘 You said YES!!! 🎉\nI can’t wait for our Valentine's date, baby! ❤️\nYou are the most amazing person in my life, and I adore you.\nSee you on the 14th, my beautiful Valentine! 💕🥰\n";
 
     // Send SMS using Textbelt API
-    fetch("https://textbelt.com/text", {
+    fetch("https://cors-anywhere.herokuapp.com/https://textbelt.com/text", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
